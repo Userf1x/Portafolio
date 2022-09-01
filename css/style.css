@@ -1,3 +1,34 @@
-.nav-bg{
-    grid-template-rows: 10 rem 10 rem;
+:root {
+    --principal: #eeeee4;
+    --secundario: #e28743;
+    --secundarioClaro: #eab676;
+    --marron:#873e23;
+    --oscuro: #21130d;
+
 }
+/*Globales*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*finGlobales*/
+
+/*Barra-de-navegacion*/
+.navegacion-principal { 
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-principal{
+    display:  inline-block;
+    margin: 0 2rem;
+    
+}
+.navegacion-principal{
+    text-decoration: none;
+    color: var(--principal);
+}
+
+
+/*finBarra-de-navegacion*/
